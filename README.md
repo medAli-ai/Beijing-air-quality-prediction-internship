@@ -20,15 +20,12 @@ This data set includes hourly air pollutants data from 12 nationally-controlled 
 
 ### 3. PACF
 We used this function to determine the appropriate lags **p** in an AR **(p)** model or in an extended ARIMA **(p,d,q)** model.
-![PACF](media/O3.jpg)
 We choose for example the explanatory variable `PM10` and how it is correlated in time.
-
 We noticed that all variable verify the same plot meaning the best lag is two.
+![PACF](src/Images/PACF-plot.png)
 
-### 4. Overview of the stations distribution
-![stations](media/map.jpg)
 
-### 5. Souce Code
+### 4. Souce Code
 The main project implementation files can be seen in the directory named **'src'**. The structure and description of this directory is shown as:
 - src:
     - AirQualityData:
@@ -38,18 +35,45 @@ The main project implementation files can be seen in the directory named **'src'
     - Deep Learning
         - Pytorch LSTM Baseline .ipynb
         - Pytorch Attention LSTM Baseline.ipynb
+        - Tabnet baseline.ipynb
+
     - Machine Learning
         - Catboost baseline.ipynb
         - Lightgbm-baseline.ipynb
         - Linear models baseline.ipynb
-        - Tabnet baseline.ipynb
         - XGBOOST-Baseline.ipynb
     
-            <img src='media/smape.jpg' width=300>
+### 6. Benchmark
 
-### 6. Final Report
-The **'report.pdf'** file includes details of the data preprocessing process and the final prediction result. The following image shows the prediction value and true value of O3. If you want to figure out more details, please refer to the report.
-![O3](media/O3.jpg)
+| Model | RMSE | Kaggle | code | 
+|:---|:---|:---|:---| 
+| Catboost | 0.925(08) | [our work](https://www.kaggle.com/code/nourhadrich/catboost-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
+| Lightgbm | 0.925(07) | [our work](https://www.kaggle.com/code/khalil20cherif/linear-models-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
+| XGBOOST | 0.919(08) | [our work]() | [this repo](https://github.com/helme/ecg_ptbxl_|
+| Linear models | 0.925(08) | [our work](https://www.kaggle.com/code/khalil20cherif/linear-models-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
+| LSTM | 0.925(08) | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-lstm-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
+| Attention LSTM | 0.925(07) | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-attention-lstm-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
+| Tabnet | 0.919(08) | [our work](https://www.kaggle.com/code/medali1992/aug-tps-tabnetclassifier) | [this repo](https://github.com/helme/ecg_ptbxl_|
+
+### Collaborators <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+   <td align="center">
+         <a href="https://github.com/medAli-ai"><img src="https://avatars.githubusercontent.com/u/42294664?v=4" st alt="med ali"/> 
+         <br/>
+         <sub><b>Mohamed Ali Bouchhioua</b></sub></a><br /><a href="https://github.com/grtvishnu" title="Code">💻</a> 
+   </td>
+   </tr>
+   
+   
+
+</table>
+
+
 
 
             
