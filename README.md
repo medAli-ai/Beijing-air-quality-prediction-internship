@@ -47,12 +47,12 @@ The main project implementation files can be seen in the directory named **'src'
 
 | Model | RMSE | Kaggle | code | 
 |:---|:---|:---|:---| 
-| Catboost |10.29049 | [our work](https://www.kaggle.com/code/nourhadrich/catboost-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/Catboost%20Baseline.ipynb))| 
+| Catboost |10.29049 | [our work](https://www.kaggle.com/code/nourhadrich/catboost-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/Catboost%20Baseline.ipynb)| 
 | Lightgbm |  9.43424 | [our work](https://www.kaggle.com/code/khalil20cherif/linear-models-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/lightgbm-baseline.ipynb)| 
 | XGBOOST | 9.23511 | [our work]() | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/XGBOOST-Baseline.ipynb)|
 | Linear models | 12.29697 | [our work](https://www.kaggle.com/code/khalil20cherif/linear-models-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/Linear%20models%20baseline.ipynb)| 
 | LSTM | 15.45468 | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-lstm-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/Deep%20Learning/Pytorch%20LSTM%20Baseline.ipynb)| 
-| Attention LSTM | 14.51535 | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-attention-lstm-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/Deep%20Learning/Pytorch%20Attention%20LSTM%20Baseline.ipynb)| 
+| Attention LSTM | 14.51535 | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-attention-lstm-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/Deep%20Learning/Pytorch%20Attention%20LSTM%20Baseline.ipynb)| 
 | Tabnet | 10.38852 | [our work](https://www.kaggle.com/code/medali1992/aug-tps-tabnetclassifier) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/Tabnet%20baseline.ipynb)|
 
 ## Prediction plot
