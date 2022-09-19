@@ -47,13 +47,18 @@ The main project implementation files can be seen in the directory named **'src'
 
 | Model | RMSE | Kaggle | code | 
 |:---|:---|:---|:---| 
-| Catboost | 0.925(08) | [our work](https://www.kaggle.com/code/nourhadrich/catboost-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
-| Lightgbm | 0.925(07) | [our work](https://www.kaggle.com/code/khalil20cherif/linear-models-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
-| XGBOOST | 0.919(08) | [our work]() | [this repo](https://github.com/helme/ecg_ptbxl_|
-| Linear models | 0.925(08) | [our work](https://www.kaggle.com/code/khalil20cherif/linear-models-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
-| LSTM | 0.925(08) | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-lstm-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
-| Attention LSTM | 0.925(07) | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-attention-lstm-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/)| 
-| Tabnet | 0.919(08) | [our work](https://www.kaggle.com/code/medali1992/aug-tps-tabnetclassifier) | [this repo](https://github.com/helme/ecg_ptbxl_|
+| Catboost |10.29049 | [our work](https://www.kaggle.com/code/nourhadrich/catboost-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/Catboost%20Baseline.ipynb))| 
+| Lightgbm |  9.43424 | [our work](https://www.kaggle.com/code/khalil20cherif/linear-models-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/lightgbm-baseline.ipynb)| 
+| XGBOOST | 9.23511 | [our work]() | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/XGBOOST-Baseline.ipynb)|
+| Linear models | 12.29697 | [our work](https://www.kaggle.com/code/khalil20cherif/linear-models-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/Linear%20models%20baseline.ipynb)| 
+| LSTM | 15.45468 | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-lstm-baseline) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/Deep%20Learning/Pytorch%20LSTM%20Baseline.ipynb)| 
+| Attention LSTM | 14.51535 | [our work](https://www.kaggle.com/code/medali1992/beijing-pytorch-attention-lstm-baseline) | [this repo](https://github.com/helme/ecg_ptbxl_benchmarking/](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/Deep%20Learning/Pytorch%20Attention%20LSTM%20Baseline.ipynb)| 
+| Tabnet | 10.38852 | [our work](https://www.kaggle.com/code/medali1992/aug-tps-tabnetclassifier) | [this repo](https://github.com/medAli-ai/Beijing-air-quality-prediction-internship/blob/main/src/MachineLearning/Tabnet%20baseline.ipynb)|
+
+## Prediction plot
+![Prediction](src/Images/prediction-plot.png)
+
+
 
 ### Collaborators <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -63,9 +68,14 @@ The main project implementation files can be seen in the directory named **'src'
 <table>
   <tr>
    <td align="center">
-         <a href="https://github.com/medAli-ai"><img src="https://avatars.githubusercontent.com/u/42294664?v=4" st alt="med ali"/> 
+         <a href="https://github.com/medAli-ai"><img src="https://avatars.githubusercontent.com/u/42294664?v=4" width=100px alt="med ali"/> 
          <br/>
-         <sub><b>Mohamed Ali Bouchhioua</b></sub></a><br /><a href="https://github.com/grtvishnu" title="Code">💻</a> 
+         <sub><b>Mohamed Ali Bouchhioua</b></sub></a><br /><a href="https://github.com/medAli-ai" title="Code">💻</a> 
+   </td>
+   <td align="center">
+         <a href="https://github.com/2nour"><img src="https://avatars.githubusercontent.com/u/52534067?v=4" width=100px alt="2nour"/> 
+         <br/>
+         <sub><b>Nour Hadrich</b></sub></a><br /><a href="https://github.com/2nour" title="Code">💻</a> 
    </td>
    </tr>
    
